@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+pydantic-settings
+passlib[bcrypt]
+python-jose
+redis
+email-validator   # 👈 add this line
+psycopg2-binary   # 👈 required for PostgreSQL
+python-multipart

@@ -1,0 +1,47 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files (don't bake secrets into Docker image)
+.env
+.env.dev
+.env.prod
+
+# Docker volumes
+pgdata/
+redisdata/
+
+# Alembic / Migrations cache
+alembic/__pycache__/
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Logs & coverage
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Git
+.git
+.gitignore
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+```
+
+# SSH / PEM keys 
+*.pem

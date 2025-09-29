@@ -1,0 +1,49 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+.env
+.env.dev
+.env.prod
+venv/
+.venv/
+
+# VSCode / PyCharm / IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Database / Redis
+*.db
+*.sqlite3
+pgdata/
+redisdata/
+
+# Migrations cache (Alembic if used)
+alembic/__pycache__/
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+```
+
+# SSH / PEM keys 
+*.pem
